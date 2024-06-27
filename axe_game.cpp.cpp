@@ -5,9 +5,17 @@
 
 int main()
 {
-    int width = 200;
-    int length = 300;
-    InitWindow(width,length, "Julia");
+    int width = 300;
+    int length = 200;
+    InitWindow(width, length, "Julia");
+
+    while(WindowShouldClose()== false) {
+        BeginDrawing();
+        ClearBackground(RED);
+        EndDrawing();
+        
+    }
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
