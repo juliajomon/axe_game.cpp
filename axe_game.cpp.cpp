@@ -5,26 +5,43 @@
 
 int main()
 {
-    int width = 300;
-    int length = 200;
+    //dimensions
+    int width = 500;
+    int length = 400;
+
+    //dimension for circle
+    int x = 250;
+    int y = 200;
+    float rad = 15.5f;
+
+    //window screen
     InitWindow(width, length, "Julia");
+
+    SetTargetFPS(60);
 
     while(WindowShouldClose()== false) {
         BeginDrawing();
-        ClearBackground(RED);
+        ClearBackground(WHITE);
+        DrawCircle(x, y, rad, BLUE);
         EndDrawing();
+         
+        //movement of circle and keeping within boundary
+        if (IsKeyDown(KEY_D) && x < width) {
+            x = x + 10;
+        }
+        if (IsKeyDown(KEY_A) && x > 0 ) {
+            x = x - 10;
+        }
+        if (IsKeyDown(KEY_S) && y < length ){
+            y = y + 10;
+        }
+        if (IsKeyDown(KEY_W) && y > 0) {
+            y = y - 10;
+        }
         
     }
     
+    
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
