@@ -1,2 +1,9 @@
 ﻿  axe_game.cpp.cpp
-  axe_game.cpp.vcxproj -> C:\Users\Julia Jomon\source\repos\axe_game.cpp\x64\Debug\axe_game.cpp.exe
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(20,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(21,22): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(22,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(23,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(57,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(58,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(59,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Julia Jomon\source\repos\axe_game.cpp\axe_game.cpp\axe_game.cpp.cpp(60,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
